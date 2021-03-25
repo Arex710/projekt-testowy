@@ -37,3 +37,12 @@ git add -u
 
 git commit
 git push
+
+cd ..
+mkdir test-klonowania
+cd test-klonowania
+
+git clone https://github.com/przemarbor/projekt-testowy.git
+
+git commit
+git push

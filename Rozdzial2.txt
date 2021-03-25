@@ -19,3 +19,21 @@ echo Rozdzial2 > Rozdzial2.txt
 echo Rozdzial3 > Rozdzial3.txt
 
 git add Rozdzial*.txt
+
+git add -u
+
+git commit
+
+git log
+
+git checkout ec1f901ae03eec1d2a79590972403ac98a338f14
+
+git checkout master
+
+git remote add origin https://github.com/mojlogin/projekt-testowy.git
+git branch -M main
+git push -u origin main
+git add -u
+
+git commit
+git push
